@@ -1,6 +1,6 @@
 region: us-west-2
 
-function_name: pizza
+function_name: pizzastore
 handler: service.handler
 role: pylambda-role
 description: My first lambda function
