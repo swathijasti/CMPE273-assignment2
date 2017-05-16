@@ -1,15 +1,20 @@
+
+
 {
+ "method": "POST",
+  "body": {
+     "menu_id": "38f80a63-36eb-11e7-acbe-7c04d0d7603c",
     "store_name": "Pizza Hut",
-    "selection": [ 
+    "selection": [
         "Cheese",
         "Pepperoni"
     ],
-    "size": [
-        "Slide", "Small", "Medium", "Large", "X-Large"
-    ],
-    "sequence": [
+     "sequence": [
         "selection",
         "size"
+    ],
+    "size": [
+        "Slide", "Small", "Medium", "Large", "X-Large"
     ],
     "price": [
         "3.50", "7.00", "10.00", "15.00", "20.00"
@@ -23,4 +28,6 @@
         "Sat": "11am-12pm",
         "Sun": "11am-12pm"
     }
+  }
+
 }
